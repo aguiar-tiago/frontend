@@ -1,0 +1,29 @@
+{
+    "admin": {
+        "dropdown": {
+            "customers": "Customers",
+            "cancelling": "Cancelling",
+            "cancelled": "Cancelled",
+            "pending_delete": "Pending Delete",
+            "spammers": "Spammers"
+        },
+        "customers": {
+            "customers": "Customers",
+            "new_customer_button": "New Customer",
+            "search_button": "Search",
+            "search_input_placeholder": "Keywords",
+            "total_account": "Total Account {{count}}",
+            "total_account_plural": "Total Accounts {{count}}",
+            "total_user": "Total User {{count}}",
+            "total_user_plural": "Total Users {{count}}",
+            "total_proposal": "Total Proposal {{count}}",
+            "total_proposal_plural": "Total Proposals {{count}}"
+        },
+        "update_tokens": {
+            "greeting": "Hello",
+            "button_submit": "Submit",
+            "button_send_all": "Send All",
+            "button_clear_all": "Clear All"
+        }
+    }
+}

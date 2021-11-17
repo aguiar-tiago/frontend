@@ -1,0 +1,43 @@
+@import '../../styles/colors.less';
+
+@dashed : ant-btn-dashed;
+@primary : ant-btn-primary;
+@ghost : ant-btn-ghost;
+@text : ant-btn-text;
+@base: ant-btn;
+
+.info.@{base} {
+    border-color: @proposify-info;
+    color: @proposify-info;
+    &.@{primary} {
+        background: @proposify-info;
+        color: #fff;
+    }
+    &.@{text} {
+        border: none;
+    }
+}
+
+.warning.@{base} {
+    border-color: @proposify-warning;
+    color: @proposify-warning;
+    &.@{primary} {
+        background: @proposify-warning;
+        color: #fff;
+    }
+    &.@{text} {
+        border: none;
+    }
+}
+
+.success.@{base} {
+    border-color: @proposify-success;
+    color: @proposify-success;
+    &.@{primary} {
+        background: @proposify-success;
+        color: #fff;
+    }
+    &.@{text} {
+        border: none;
+    }
+}

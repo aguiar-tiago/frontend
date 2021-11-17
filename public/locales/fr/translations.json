@@ -1,0 +1,29 @@
+{
+    "admin": {
+        "dropdown": {
+            "customers": "Les clients",
+            "cancelling": "Annulation",
+            "cancelled": "Annulé",
+            "pending_delete": "En cours de suppression",
+            "spammers": "Spammeurs"
+        },
+        "customers": {
+            "customers": "Les clients",
+            "new_customer_button": "Nouveau client",
+            "search_button": "Chercher",
+            "search_input_placeholder": "Mots clés",
+            "total_account": "Compte total {{count}}",
+            "total_account_plural": "Comptes totaux {{count}}",
+            "total_user": "Utilisateur total {{count}}",
+            "total_user_plural": "Utilisateur total {{count}}",
+            "total_proposal": "Proposition totale {{count}}",
+            "total_proposal_plural": "Total des propositions {{count}}"
+        },
+        "update_tokens": {
+            "greeting": "Hello",
+            "button_submit": "Submit",
+            "button_send_all": "Send All",
+            "button_clear_all": "Clear All"
+        }
+    }
+}

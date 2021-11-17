@@ -1,0 +1,43 @@
+@import '../../styles/colors.less';
+
+
+.dashboard-left-sidebar {
+    height: auto;
+    background: @proposify-cyan;
+
+    .ant-menu {
+        border: none;
+
+        .ant-menu-item {
+            color: @proposify-dark-cyan;
+            border: none;
+
+            .ant-menu-title-content, .anticon {
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+    }
+
+
+    .ant-menu-item-active {
+        background: @proposify-light-cyan;
+        color: white;
+    }
+
+    .ant-menu-submenu-title:hover {
+        color: white;
+    }
+    
+    ul.ant-menu, 
+    li, .ant-layout-sider-trigger, 
+    &.ant-layout-sider {
+        background: @proposify-cyan;
+    }
+
+    .ant-menu-light.ant-menu-light:not(.ant-menu-horizontal) .ant-menu-item-selected {
+        background: @proposify-light-cyan;
+        color: white;
+    }
+}
